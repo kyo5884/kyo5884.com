@@ -1,0 +1,9 @@
+{
+  "name": "kyo5884.com",
+  "version": "0.0.0",
+  "description": "kyo5884 portfolio website",
+  "main": "index.js",
+  "repository": "https://github.com/kyo5884/kyo5884.com.git",
+  "author": "kyo5884",
+  "license": "UNLICENSED"
+}
