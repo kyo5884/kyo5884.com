@@ -5,5 +5,10 @@
   "main": "index.js",
   "repository": "https://github.com/kyo5884/kyo5884.com.git",
   "author": "kyo5884",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "gatsby": "^2.19.45",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
 }
