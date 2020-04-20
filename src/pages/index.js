@@ -25,7 +25,7 @@ export default () => (
         </div>
       </header>
     </Section>
-    <Section>
+    <Section title="Projects">
       <div>
         <Card
           title="kyo5884"

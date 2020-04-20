@@ -8,9 +8,7 @@ const Section = props => (
       props.className
     }
   >
-    <h2 className="text-5xl md:text-6xl font-light antialiased">
-      {props.title}
-    </h2>
+    <h2 className="text-3xl font-light antialiased">{props.title}</h2>
     {props.children}
   </section>
 )
