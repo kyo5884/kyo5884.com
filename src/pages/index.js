@@ -27,7 +27,12 @@ export default () => (
     </Section>
     <Section>
       <div>
-        <Card title="kyo5884" description="It's me." url="https://kyo5884.com/">
+        <Card
+          title="kyo5884"
+          description="It's me."
+          url="https://kyo5884.com/"
+          img="/kyo5884.png"
+        >
           <ul>
             <li>Apple Music</li>
             <li>Google Play Music</li>
@@ -36,9 +41,10 @@ export default () => (
         </Card>
         <Card
           title="最高に幸せな私たちの世界。"
+          description="Depressive Suicidal Black Kawaii Future Progressive Emotional Electro Death Metalcore J-Pop Idol"
           linkTitle="saikou.world"
           url="https://saikou.world/"
-          description="Depressive Suicidal Black Kawaii Future Progressive Emotional Electro Death Metalcore J-Pop Idol"
+          img="/saikou.jpg"
         >
           <ul>
             <li>iTunes</li>
@@ -48,9 +54,10 @@ export default () => (
         </Card>
         <Card
           title="月面避行"
+          description="SynthPop works by kyo5884 and harumurakuro"
           linkTitle="www.getsumenhikou.com"
           url="https://www.getsumenhikou.com/"
-          description="SynthPop works by kyo5884 and harumurakuro"
+          img="/getsumenhikou.png"
         >
           <ul>
             <li>Bandcamp</li>

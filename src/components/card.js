@@ -4,7 +4,7 @@ const Card = props => (
   <div className="flex flex-col sm:flex-row sm:items-center shadow-lg rounded-lg bg-white my-8 overflow-hidden">
     <img
       className="sm:m-6 sm:rounded-full w-full h-auto sm:w-auto sm:h-48"
-      src="http://dummyimage.com/480x480"
+      src={props.img}
       alt={props.title}
     ></img>
     <div className="m-4 sm:m-8 sm:ml-2">
