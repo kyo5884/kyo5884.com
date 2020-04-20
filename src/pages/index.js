@@ -12,7 +12,7 @@ export default () => (
           <span className="font-light">kyo5884</span>
           <span className="font-hairline text-gray-700">.com</span>
         </h1>
-        <p className="-mt-5 mb-4 text-sm">メンヘラポエムコンポーザー</p>
+        <p className="-mt-5 mb-4 text-xs">メンヘラポエムコンポーザー</p>
         <div>
           <ul className="flex">
             <li className="mx-1">
