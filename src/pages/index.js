@@ -34,9 +34,21 @@ export default () => (
           img="/kyo5884.png"
         >
           <ul>
-            <li>Apple Music</li>
-            <li>Google Play Music</li>
-            <li>Spotify</li>
+            <li>
+              <a href="https://music.apple.com/jp/artist/kyo5884/1460641098">
+                Apple Music
+              </a>
+            </li>
+            <li>
+              <a href="https://play.google.com/store/music/artist?id=Avqsttosoifehgzahttnx77dfwy">
+                Google Play Music
+              </a>
+            </li>
+            <li>
+              <a href="https://open.spotify.com/artist/6ujwIitifvO4HUTeyVJH5E">
+                Spotify
+              </a>
+            </li>
           </ul>
         </Card>
         <Card
@@ -47,9 +59,19 @@ export default () => (
           img="/saikou.jpg"
         >
           <ul>
-            <li>iTunes</li>
-            <li>Google Play</li>
-            <li>Bandcamp</li>
+            <li>
+              <a href="https://music.apple.com/jp/artist/%E6%9C%80%E9%AB%98%E3%81%AB%E5%B9%B8%E3%81%9B%E3%81%AA%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%96%E7%95%8C/1488287586">
+                iTunes
+              </a>
+            </li>
+            <li>
+              <a href="https://play.google.com/store/music/artist?id=A2ddvtx5gmpy3jlad7gofn53fye">
+                Google Play
+              </a>
+            </li>
+            <li>
+              <a href="https://saikou-world.bandcamp.com/">Bandcamp</a>
+            </li>
           </ul>
         </Card>
         <Card
@@ -60,7 +82,9 @@ export default () => (
           img="/getsumenhikou.png"
         >
           <ul>
-            <li>Bandcamp</li>
+            <li>
+              <a href="https://getsumenhikou.bandcamp.com/">Bandcamp</a>
+            </li>
           </ul>
         </Card>
       </div>
