@@ -6,6 +6,9 @@
   "repository": "https://github.com/kyo5884/kyo5884.com.git",
   "author": "kyo5884",
   "license": "UNLICENSED",
+  "scripts": {
+    "dev": "gatsby develop"
+  },
   "dependencies": {
     "gatsby": "^2.19.45",
     "gatsby-plugin-postcss": "^2.1.22",
