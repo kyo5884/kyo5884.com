@@ -7,14 +7,17 @@
   "author": "kyo5884",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "gatsby develop"
+    "dev": "gatsby develop",
+    "dev:lan": "gatsby develop -H 0.0.0.0"
   },
   "dependencies": {
     "gatsby": "^2.19.45",
     "gatsby-plugin-postcss": "^2.1.22",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
+    "gatsby-plugin-react-helmet": "^3.3.10",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

@@ -1,7 +1,7 @@
 @tailwind base;
 
 body {
-  font-family: 'Josefin Slab', sans-serif;
+  font-family: 'Josefin Slab', -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', sans-serif;
   @apply bg-gray-100 font-hairline;
 }
 a {

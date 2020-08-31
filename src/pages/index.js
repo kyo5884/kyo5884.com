@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import '../style/tailwind.css'
 
 import Card from '../components/card.js'
@@ -6,6 +7,9 @@ import Section from '../components/section.js'
 
 export default () => (
   <div>
+    <Helmet>
+      <title>kyo5884.com</title>
+    </Helmet>
     <Section style={{ marginBottom: '-15vh' }}>
       <header className="flex flex-col items-center justify-center w-screen">
         <h1 className="text-5xl sm:text-6xl antialiased">
