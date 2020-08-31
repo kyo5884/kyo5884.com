@@ -7,7 +7,8 @@
   "author": "kyo5884",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "gatsby develop"
+    "dev": "gatsby develop",
+    "dev:lan": "gatsby develop -H 0.0.0.0"
   },
   "dependencies": {
     "gatsby": "^2.19.45",
