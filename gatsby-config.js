@@ -7,14 +7,16 @@ module.exports = {
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
     {
-      resolve: 'gatsby-plugin-prefetch-google-fonts',
+      resolve: 'gatsby-plugin-webfonts',
       options: {
-        fonts: [
-          {
-            family: 'Josefin Slab',
-            variants: ['100', '300'],
-          },
-        ],
+        fonts: {
+          google: [
+            {
+              family: 'Josefin Slab',
+              variants: ['100', '300'],
+            },
+          ]
+        },
       },
     },
   ],
