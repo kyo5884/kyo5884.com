@@ -11,7 +11,7 @@ export default () => (
       <title>kyo5884.com</title>
     </Helmet>
     <Section style={{ marginBottom: '-15vh' }}>
-      <header className="flex flex-col items-center justify-center w-screen">
+      <header className="flex flex-col items-center justify-center w-full">
         <h1 className="text-5xl sm:text-6xl antialiased">
           <span className="font-light">kyo5884</span>
           <span className="font-hairline text-gray-700">.com</span>
