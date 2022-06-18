@@ -98,5 +98,8 @@ export default () => (
         </Card>
       </div>
     </Section>
+    <Section title="Listen now">
+      <iframe className="rounded-lg shadow-lg my-8" src="https://open.spotify.com/embed/playlist/6W70afvS8q5x1KlITJ48GY?utm_source=generator" width="100%" height="480" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </Section>
   </div>
 )
