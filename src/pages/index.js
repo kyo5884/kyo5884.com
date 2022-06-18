@@ -44,13 +44,13 @@ export default () => (
               </a>
             </li>
             <li>
-              <a href="https://play.google.com/store/music/artist?id=Avqsttosoifehgzahttnx77dfwy">
-                Google Play Music
+              <a href="https://open.spotify.com/artist/6ujwIitifvO4HUTeyVJH5E">
+                Spotify
               </a>
             </li>
             <li>
-              <a href="https://open.spotify.com/artist/6ujwIitifvO4HUTeyVJH5E">
-                Spotify
+              <a href="https://music.youtube.com/channel/UClXOuYluQhT7TRP6iR8NLyg">
+                YouTube Music
               </a>
             </li>
           </ul>
@@ -65,12 +65,17 @@ export default () => (
           <ul>
             <li>
               <a href="https://music.apple.com/jp/artist/%E6%9C%80%E9%AB%98%E3%81%AB%E5%B9%B8%E3%81%9B%E3%81%AA%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%96%E7%95%8C/1488287586">
-                iTunes
+                Apple Music
               </a>
             </li>
             <li>
-              <a href="https://play.google.com/store/music/artist?id=A2ddvtx5gmpy3jlad7gofn53fye">
-                Google Play
+              <a href="https://open.spotify.com/artist/15Kup6atFe9iqKfisDe6Fx">
+                Spotify
+              </a>
+            </li>
+            <li>
+              <a href="https://music.youtube.com/channel/UCRkW9u0z9H2sUJgmy-nuZzA">
+                YouTube Music
               </a>
             </li>
             <li>
