@@ -4,11 +4,10 @@ const Section = props => (
   <section
     style={props.style}
     className={
-      'flex flex-col items-center justify-center min-h-screen w-screen px-8 ' +
-      props.className
+      `flex flex-col items-stretch justify-center min-h-screen px-8 container mx-auto ${props.className}`
     }
   >
-    <h2 className="text-3xl font-light antialiased">{props.title}</h2>
+    <h2 className="text-3xl font-light antialiased text-center">{props.title}</h2>
     {props.children}
   </section>
 )
