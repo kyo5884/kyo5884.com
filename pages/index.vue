@@ -1,5 +1,7 @@
 <template>
   <div>
-    <h1>index</h1>
+    <h1 class="text-4xl m-4">
+      index
+    </h1>
   </div>
 </template>
