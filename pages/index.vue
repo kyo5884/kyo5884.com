@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="w-full min-h-screen flex flex-col justify-center items-center text-center">
+    <header class="w-full h-screen flex flex-col justify-center items-center text-center">
       <div class="py-2 border-b border-b-neutral-300">
         <h1 class="text-6xl antialiased">
           <span class="font-light">kyo5884</span><span class="font-thin">.com</span>
@@ -37,5 +37,68 @@
         </li>
       </ul>
     </header>
+    <section class="p-4 flex flex-col md:flex-row items-stretch gap-4">
+      <ArtistCard
+        :name="{ ja: 'kyo5884' }"
+        description="It's me."
+        :links="[
+          {
+            faIcon: ['fab', 'x-twitter'],
+            url: 'https://x.com/kyo5884',
+          },
+          {
+            faIcon: ['fab', 'itunes'],
+            url: 'https://music.apple.com/jp/artist/kyo5884/1460641098',
+          },
+          {
+            faIcon: ['fab', 'spotify'],
+            url: 'https://open.spotify.com/intl-ja/artist/6ujwIitifvO4HUTeyVJH5E',
+          },
+          {
+            faIcon: ['fab', 'youtube'],
+            url: 'https://www.youtube.com/@kyo5884',
+          },
+        ]"
+        url="https://kyo5884.com/"
+      />
+      <ArtistCard
+        :name="{ ja: '最高に幸せな私たちの世界。', en: 'Saikou World' }"
+        description="Depressive Suicidal Black Kawaii Future Progressive Emotional Electro Death Metalcore J-Pop Idol"
+        :links="[
+          {
+            faIcon: ['fab', 'x-twitter'],
+            url: 'https://x.com/saikou_world_',
+          },
+          {
+            faIcon: ['fab', 'itunes'],
+            url: 'https://music.apple.com/jp/artist/%E6%9C%80%E9%AB%98%E3%81%AB%E5%B9%B8%E3%81%9B%E3%81%AA%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AE%E4%B8%96%E7%95%8C/1488287586',
+          },
+          {
+            faIcon: ['fab', 'spotify'],
+            url: 'https://open.spotify.com/artist/15Kup6atFe9iqKfisDe6Fx',
+          },
+          {
+            faIcon: ['fab', 'youtube'],
+            url: 'https://www.youtube.com/@saikou_world',
+          },
+          {
+            faIcon: ['fab', 'bandcamp'],
+            url: 'https://saikou-world.bandcamp.com/',
+          },
+        ]"
+        url="https://saikou.world/"
+      />
+      <ArtistCard
+        :name="{ ja: '月面避行', en: 'GetsumenHikou' }"
+        description="SynthPop works by kyo5884 and harumurakuro"
+        :links="[
+          {
+            faIcon: ['fab', 'bandcamp'],
+            url: 'https://getsumenhikou.bandcamp.com/',
+          },
+        ]"
+        url="https://www.getsumenhikou.com/"
+      />
+    </section>
   </div>
 </template>

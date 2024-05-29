@@ -10,12 +10,13 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     families: {
-      'Josefin+Slab': [100, 200, 300],
+      'Josefin+Slab': [100, 200, 300, 700],
     },
   },
   fontawesome: {
     icons: {
       brands: ['x-twitter', 'wordpress', 'itunes', 'spotify', 'youtube', 'bandcamp'],
+      solid: ['earth-asia'],
     },
   },
 })
