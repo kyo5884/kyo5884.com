@@ -106,5 +106,28 @@
         header="img/getsumenhikou-header.png"
       />
     </section>
+    <section class="p-4">
+      <iframe
+        class="block rounded-2xl shadow-lg w-full h-full aspect-video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/videoseries?si=WtDcfl3r6TtNhE-Y&amp;list=PLo7fOBiov9NmHZMjffmmJoHq8GSZUimkP"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      />
+    </section>
+    <section class="p-4">
+      <iframe
+        class="block rounded-2xl shadow-lg"
+        src="https://open.spotify.com/embed/playlist/6W70afvS8q5x1KlITJ48GY?utm_source=generator"
+        width="100%"
+        height="480"
+        frameBorder="0"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      />
+    </section>
   </div>
 </template>
