@@ -60,6 +60,8 @@
           },
         ]"
         url="https://kyo5884.com/"
+        icon="img/kyo5884.png"
+        header="img/kyo5884-header.jpg"
       />
       <ArtistCard
         :name="{ ja: '最高に幸せな私たちの世界。', en: 'Saikou World' }"
@@ -87,6 +89,8 @@
           },
         ]"
         url="https://saikou.world/"
+        icon="img/saikou.jpg"
+        header="img/saikou-header.jpg"
       />
       <ArtistCard
         :name="{ ja: '月面避行', en: 'GetsumenHikou' }"
@@ -98,6 +102,8 @@
           },
         ]"
         url="https://www.getsumenhikou.com/"
+        icon="img/getsumenhikou.png"
+        header="img/getsumenhikou-header.png"
       />
     </section>
   </div>

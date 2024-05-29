@@ -5,9 +5,15 @@
       class="flex-1 flex flex-col"
     >
       <header class="flex flex-col text-center">
-        <div class="h-32 w-full bg-neutral-100" />
+        <div
+          class="h-36 w-full bg-neutral-100 bg-cover bg-center"
+          :style="`background-image: url(${header})`"
+        />
         <div class="flex flex-col items-center">
-          <div class="-mt-12 w-24 h-24 rounded-full bg-neutral-500" />
+          <img
+            class="-mt-12 w-24 h-24 rounded-full border-4 border-white bg-neutral-500"
+            :src="icon"
+          >
           <h3 class="mt-4 text-xl font-bold">
             {{ name.ja }}
           </h3>
@@ -52,6 +58,8 @@ interface Props {
     url: string
   }[]
   url: string
+  icon: string
+  header?: string
 }
 defineProps<Props>()
 </script>
