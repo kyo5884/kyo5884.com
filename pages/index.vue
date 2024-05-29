@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="w-full h-screen flex flex-col justify-center items-center text-center">
+    <header class="-mb-24 w-full h-screen flex flex-col justify-center items-center text-center">
       <div class="py-2 border-b border-b-neutral-300">
         <h1 class="text-6xl antialiased">
           <span class="font-light">kyo5884</span><span class="font-thin">.com</span>
