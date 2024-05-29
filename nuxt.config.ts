@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   pages: true,
-  modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss', '@nuxtjs/google-fonts'],
+  modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', '@vesp/nuxt-fontawesome'],
   eslint: {
     config: {
       stylistic: true,
@@ -11,6 +11,11 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       'Josefin+Slab': true,
+    },
+  },
+  fontawesome: {
+    icons: {
+      brands: ['x-twitter', 'itunes', 'spotify'],
     },
   },
 })

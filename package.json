@@ -16,8 +16,10 @@
     "vue-router": "^4.3.2"
   },
   "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@nuxt/eslint": "^0.3.13",
     "@nuxtjs/tailwindcss": "^6.12.0",
+    "@vesp/nuxt-fontawesome": "^1.0.4",
     "eslint": "^9.3.0"
   }
 }
