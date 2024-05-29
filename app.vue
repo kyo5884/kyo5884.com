@@ -1,5 +1,11 @@
 <template>
-  <div>
+  <main>
     <NuxtPage />
-  </div>
+  </main>
 </template>
+
+<style>
+body {
+  font-family: 'Josefin Slab';
+}
+</style>
