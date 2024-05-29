@@ -1,30 +1,26 @@
 {
-  "name": "kyo5884.com",
-  "version": "0.0.0",
-  "description": "kyo5884 portfolio website",
-  "main": "index.js",
-  "repository": "https://github.com/kyo5884/kyo5884.com.git",
-  "author": "kyo5884",
-  "license": "UNLICENSED",
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "gatsby develop",
-    "dev:lan": "gatsby develop -H 0.0.0.0"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "gatsby": "^2.19.45",
-    "gatsby-plugin-postcss": "^2.1.22",
-    "gatsby-plugin-react-helmet": "^3.3.10",
-    "gatsby-plugin-webfonts": "^1.1.4",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-helmet": "^6.1.0"
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
   },
   "devDependencies": {
-    "eslint": "^7.8.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-config-react-app": "^5.2.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "prettier": "^2.1.1",
-    "tailwindcss": "^1.8.3"
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@nuxt/eslint": "^0.3.13",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@vesp/nuxt-fontawesome": "^1.0.4",
+    "eslint": "^9.3.0"
   }
 }
