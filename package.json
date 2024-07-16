@@ -23,5 +23,6 @@
     "@vesp/nuxt-fontawesome": "^1.0.4",
     "eslint": "^9.3.0"
   },
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "packageManager": "yarn@4.3.1"
 }
