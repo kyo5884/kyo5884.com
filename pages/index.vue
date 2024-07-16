@@ -221,5 +221,6 @@
         cover-url="https://www.getsumenhikou.com/content/images/jacket/longhairjacket.jpg"
       />
     </section>
+    <footer class="px-4 py-8 text-center" />
   </div>
 </template>
