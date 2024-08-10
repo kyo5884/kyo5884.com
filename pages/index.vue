@@ -131,6 +131,11 @@
     </section>
     <section class="p-4 grid grid-cols-3 md:grid-cols-6 gap-4">
       <AlbumCard
+        name="Never Leave Lonely"
+        url=":"
+        cover-url="https://images.ctfassets.net/7qcqmfuv8a2o/6Qf9WaJhUsXac5Kb30zZhR/b15e841816153d29b6fe5dddfeb41367/never-leave-lonely-cover.png"
+      />
+      <AlbumCard
         name="DTMシンガーソングライターコンピ"
         url="https://lro.sakura.ne.jp/DTM-SSW/"
         cover-url="https://lro.sakura.ne.jp/DTM-SSW/images/DTM-SSW_jk.jpg"
