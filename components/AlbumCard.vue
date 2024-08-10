@@ -7,6 +7,7 @@
       <img
         :src="coverUrl"
         class="aspect-square"
+        :alt="name"
       >
     </a>
   </article>
